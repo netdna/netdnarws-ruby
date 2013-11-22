@@ -13,7 +13,6 @@ Gem::Specification.new do |gem|
   gem.email = "devteam@netdna.com"
   gem.authors = ["NetDNA Developer Team"]
   gem.add_dependency 'json' if RUBY_VERSION.start_with? "1.8"
-  gem.add_dependency 'addressable'
   gem.add_dependency 'signet'
   gem.add_dependency 'curb-fu'
 end
