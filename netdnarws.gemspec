@@ -8,11 +8,9 @@ Gem::Specification.new do |gem|
   gem.license = "MIT"
   gem.files = `git ls-files`.split($\)
   gem.require_paths = ['lib']
-  gem.summary = %Q{A Rest Client For NetDNA Rest Web Services}
-  gem.description = %Q{A Rest Client For NetDNA Rest Web Services}
+  gem.summary = %Q{Depricated: Rest Client For NetDNA Rest Web Services}
+  gem.description = gem.summary
   gem.email = "devteam@netdna.com"
   gem.authors = ["NetDNA Developer Team"]
-  gem.add_dependency 'json' if RUBY_VERSION.start_with? "1.8"
-  gem.add_dependency 'signet'
-  gem.add_dependency 'curb-fu'
+  gem.add_dependency 'maxcdn'
 end

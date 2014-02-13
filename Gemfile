@@ -1,6 +1,10 @@
 source "http://rubygems.org"
 
-gem "json" if RUBY_VERSION.start_with? "1.8"
-gem 'signet'
-gem "curb-fu"
 gemspec
+group :development do
+  gem "rake"
+  gem "pry"
+  gem "minitest"
+  gem "minitest-reporters"
+  gem "webmock"
+end
