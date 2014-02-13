@@ -6,5 +6,4 @@ group :development do
   gem "pry"
   gem "minitest"
   gem "minitest-reporters"
-  gem "webmock"
 end
